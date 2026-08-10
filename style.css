@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b1020;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+.container {
+    width: min(1100px, 92%);
+    margin: auto;
+    padding: 40px 0;
+}
+
+h1 {
+    font-size: clamp(2rem, 7vw, 4rem);
+    margin-bottom: 10px;
+}
+
+p {
+    color: #b8c0d9;
+    font-size: 1.1rem;
+}
